@@ -60,7 +60,7 @@
 
      - size: full
        widgets:
-         - type: group
+          - type: group
             widgets:
                - type: rss
                  title: WebDev
@@ -94,7 +94,6 @@
                       title: Damn Interesting Curated Links
                     - url: https://www.popsci.com/feed
                       title: Popular Science
-
           - type: group
             widgets:
                - type: videos
@@ -102,11 +101,9 @@
                  style: grid-cards
                  collapse-after-rows: 3
                  limit: 30
-                 playlists:
-                    - PLtbZy7rFV41jK6TVlVQfrfW7CErEJpdij
                  channels:
-                    - UCWu6v5jfsW3wO948jOHMEiA # movesmethod
-                    - UCtCqI5Q9Jyn5MtU_Oqo2e6g # spanishgitana
+                     - UCtCqI5Q9Jyn5MtU_Oqo2e6g # spanishgitana
+                     - UCWu6v5jfsW3wO948jOHMEiA # movesmethod
                - type: videos
                  title: News
                  style: grid-cards
@@ -115,9 +112,9 @@
                  playlists:
                     - PLtbZy7rFV41jK6TVlVQfrfW7CErEJpdij # popova
                  channels:
+                    - UCCV5Z2DEYnUGIY_mO-AcQKw # grem
                     - UCTVk323gzizpujtn2T_BL7w # breakfast
                     - UCTY1dmeZ87bGv1dCv_jzMlQ # sheitelman
-                    - UCCV5Z2DEYnUGIY_mO-AcQKw # grem
 
      - size: small
        widgets:
