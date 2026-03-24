@@ -1,0 +1,32 @@
+html[data-scheme="dark"] {
+	/* 
+	Red: hsl(347, 68%, 70%)
+	Orange: hsl(25, 90%, 70%)
+	Yellow: hsl(40, 85%, 72%)
+	Green: hsl(141, 40%, 68%)
+	Cyan: hsl(187, 47%, 69%)
+	Blue: hsl(207, 82%, 66%)
+	Purple: hsl(263, 57%, 75%)
+	Violet: hsl(300, 47%, 75%)
+	*/
+	/* --color-primary: hsl(217.0, 92.0%, 83.0%); */
+	--color-primary: hsl(207, 82%, 66%);
+	--color-positive: hsl(115.0, 54.0%, 76.0%);
+	--color-negative: hsl(347.0, 70.0%, 65.0%);
+	
+	--bgh: 240;
+	--bgs: 21%;
+	--bgl: 13%;
+	--cm: 1.2;
+
+	--color-widget-background-hsl-values: var(--bghs), calc(var(--bgl) + 2%);
+}
+
+.widget.widget-type-rss {
+	ul.list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 2rem;
+		row-gap: 0.5rem;
+	}
+}
