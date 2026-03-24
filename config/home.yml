@@ -65,7 +65,7 @@
                - type: rss
                  title: WebDev
                  style: vertical-list
-                 limit: 30
+                 limit: 60
                  collapse-after: 10
                  feeds:
                     - url: https://feeds.feedburner.com/CssTricks
@@ -84,11 +84,15 @@
                       title: daverupert
                     - url: https://www.bram.us/feed/
                       title: Bram.us
+                    - url: https://www.zachleat.com/web/feed/
+                      title: Zach Leatherman
+                    - url: https://piccalil.li/articles.xml
+                      title: Piccalil    
                - type: rss
                  title: Interesting
                  style: vertical-list
                  collapse-after: 10
-                 limit: 30
+                 limit: 60
                  feeds:
                     - url: https://www.damninteresting.com/feeds/damn-interesting-curated-links/
                       title: Damn Interesting Curated Links
